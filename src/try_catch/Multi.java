@@ -4,11 +4,11 @@ public class Multi {
     public static void main(String[] args) {
         try {
             String[] siswa = new String[2];
-            siswa[0] = "Wildan";
-            siswa[1] = "Ferdi";
-            siswa[2] = "Taufiq";
+            siswa[0] = "Hon";
+            siswa[1] = "Kaze";
+            siswa[2] = "Mizu";
             System.out.println(siswa[4]);
-            int angka = 7;
+            int angka = 3;
             int hasil = angka / 0;
             System.out.println(hasil);
         } catch (ArrayIndexOutOfBoundsException ex) {
